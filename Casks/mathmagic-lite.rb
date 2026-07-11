@@ -12,7 +12,7 @@ cask "mathmagic-lite" do
     regex(/<a href="[^">]*?MathMagicLite.64-bit.zip">MathMagic Lite v?(\d+(?:\.\d+)+) for Mac[^\n]+64-bit/i)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   suite "MathMagic Lite 64-bit"
 
